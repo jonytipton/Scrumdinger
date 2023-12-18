@@ -16,6 +16,7 @@
 		F6A62B792B2FF01300210AA2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A62B782B2FF01300210AA2 /* CardView.swift */; };
 		F6A62B7B2B2FF31E00210AA2 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A62B7A2B2FF31E00210AA2 /* TrailingIconLabelStyle.swift */; };
 		F6A62B7D2B310AEC00210AA2 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A62B7C2B310AEC00210AA2 /* ScrumsView.swift */; };
+		F6A62B7F2B310E2500210AA2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A62B7E2B310E2500210AA2 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F6A62B782B2FF01300210AA2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = ../../../../../CardView.swift; sourceTree = "<group>"; };
 		F6A62B7A2B2FF31E00210AA2 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrailingIconLabelStyle.swift; path = ../../../../../TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		F6A62B7C2B310AEC00210AA2 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScrumsView.swift; path = ../../../../../ScrumsView.swift; sourceTree = "<group>"; };
+		F6A62B7E2B310E2500210AA2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = ../../../../../DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				F6A62B732B2FEE9C00210AA2 /* Models */,
 				F6A62B652B2FE80B00210AA2 /* ScrumdingerApp.swift */,
 				F6A62B7C2B310AEC00210AA2 /* ScrumsView.swift */,
+				F6A62B7E2B310E2500210AA2 /* DetailView.swift */,
 				F6A62B782B2FF01300210AA2 /* CardView.swift */,
 				F6A62B7A2B2FF31E00210AA2 /* TrailingIconLabelStyle.swift */,
 				F6A62B672B2FE80B00210AA2 /* MeetingView.swift */,
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A62B772B2FEF5600210AA2 /* DailyScrum.swift in Sources */,
+				F6A62B7F2B310E2500210AA2 /* DetailView.swift in Sources */,
 				F6A62B7B2B2FF31E00210AA2 /* TrailingIconLabelStyle.swift in Sources */,
 				F6A62B752B2FEEA800210AA2 /* Theme.swift in Sources */,
 				F6A62B7D2B310AEC00210AA2 /* ScrumsView.swift in Sources */,
