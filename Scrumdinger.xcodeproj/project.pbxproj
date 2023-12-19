@@ -17,6 +17,7 @@
 		F6CB47902B3114CD00979EAD /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB478A2B3114CD00979EAD /* DailyScrum.swift */; };
 		F6CB47912B3114CD00979EAD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB478B2B3114CD00979EAD /* Theme.swift */; };
 		F6CB47922B3114CD00979EAD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB478C2B3114CD00979EAD /* DetailView.swift */; };
+		F6CB47952B3117D900979EAD /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB47942B3117D900979EAD /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		F6CB478A2B3114CD00979EAD /* DailyScrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		F6CB478B2B3114CD00979EAD /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F6CB478C2B3114CD00979EAD /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F6CB47942B3117D900979EAD /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				F6CB478C2B3114CD00979EAD /* DetailView.swift */,
 				F6A62B672B2FE80B00210AA2 /* MeetingView.swift */,
 				F6CB47892B3114CD00979EAD /* ScrumsView.swift */,
+				F6CB47942B3117D900979EAD /* DetailEditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				F6A62B682B2FE80B00210AA2 /* MeetingView.swift in Sources */,
 				F6CB47922B3114CD00979EAD /* DetailView.swift in Sources */,
+				F6CB47952B3117D900979EAD /* DetailEditView.swift in Sources */,
 				F6CB478D2B3114CD00979EAD /* TrailingIconLabelStyle.swift in Sources */,
 				F6CB478E2B3114CD00979EAD /* CardView.swift in Sources */,
 				F6CB478F2B3114CD00979EAD /* ScrumsView.swift in Sources */,
