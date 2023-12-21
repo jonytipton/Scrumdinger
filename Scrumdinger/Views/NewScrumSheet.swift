@@ -7,8 +7,9 @@
 
 import SwiftUI
 
-struct ScrumSheet: View {
+struct NewScrumSheet: View {
     @State private var newScrum = DailyScrum.emptyScrum
+    @Binding var scrums: [DailyScrum]
     @Binding var isPresentingNewScrumView: Bool
         
     var body: some View {
@@ -22,6 +23,7 @@ struct ScrumSheet: View {
                     }
                     ToolbarItem(placement: .confirmationAction) {
                         Button("Add") {
+                            scrums.append(newScrum)
                             isPresentingNewScrumView = false
                         }
                     }
@@ -31,5 +33,5 @@ struct ScrumSheet: View {
 }
 
 #Preview {
-    ScrumSheet(isPresentingNewScrumView: .constant(true))
+    NewScrumSheet(scrums: .constant(DailyScrum.sampleData), isPresentingNewScrumView: .constant(true))
 }

@@ -38,8 +38,10 @@ struct DetailEditView: View {
                     Button(action: {
                         withAnimation {
                             let attendee = DailyScrum.Attendee(name: newAttendeeName)
+                            scrum.attendees.append(attendee)
                             newAttendeeName = ""
                         }
+                        
                     }) {
                         Image(systemName: "plus.circle.fill")
                             .accessibilityLabel("Add attendee")
