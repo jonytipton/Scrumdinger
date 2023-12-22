@@ -10,6 +10,7 @@
 		F65849922B33E148007D1ABE /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65849912B33E148007D1ABE /* NewScrumSheet.swift */; };
 		F65849942B33E4F3007D1ABE /* EditScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65849932B33E4F3007D1ABE /* EditScrumSheet.swift */; };
 		F65849962B33EAC7007D1ABE /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65849952B33EAC7007D1ABE /* History.swift */; };
+		F689B9402B352456009973EF /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F689B93F2B352456009973EF /* ScrumStore.swift */; };
 		F6A62B662B2FE80B00210AA2 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A62B652B2FE80B00210AA2 /* ScrumdingerApp.swift */; };
 		F6A62B682B2FE80B00210AA2 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A62B672B2FE80B00210AA2 /* MeetingView.swift */; };
 		F6A62B6A2B2FE80D00210AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A62B692B2FE80D00210AA2 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		F65849912B33E148007D1ABE /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 		F65849932B33E4F3007D1ABE /* EditScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScrumSheet.swift; sourceTree = "<group>"; };
 		F65849952B33EAC7007D1ABE /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		F689B93F2B352456009973EF /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		F6A62B622B2FE80B00210AA2 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A62B652B2FE80B00210AA2 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		F6A62B672B2FE80B00210AA2 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				F6A6F1C42B3139C8001A9F04 /* ScrumTimer.swift */,
 				F6CB478A2B3114CD00979EAD /* DailyScrum.swift */,
 				F65849952B33EAC7007D1ABE /* History.swift */,
+				F689B93F2B352456009973EF /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			files = (
 				F6CB479B2B3128C300979EAD /* ThemePicker.swift in Sources */,
 				F6A6F1C32B3139BA001A9F04 /* ScrumProgressViewStyle.swift in Sources */,
+				F689B9402B352456009973EF /* ScrumStore.swift in Sources */,
 				F65849962B33EAC7007D1ABE /* History.swift in Sources */,
 				F65849922B33E148007D1ABE /* NewScrumSheet.swift in Sources */,
 				F6A6F1C62B3139C8001A9F04 /* ScrumTimer.swift in Sources */,
@@ -293,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -350,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -376,6 +380,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,6 +410,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
